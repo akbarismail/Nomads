@@ -5,6 +5,7 @@ $primary-color: #071c4d;
 $primary-hover-color: #1e3771;
 $orange-color: #ff9e53;
 $orange-hover-color: #ffaa69;
+$muted-color: #6e6e6e;
 
 body {
   background-color: $white-color;
@@ -177,9 +178,88 @@ header {
   h2 {
     font-family: "Playfair Display", serif;
     font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
   }
 
   img {
     width: 100%;
+  }
+}
+
+// Section testimonial
+.section-testimonial-heading {
+  min-height: 506px;
+  padding-top: 50px;
+  background: linear-gradient($white-color 0%, #f7f9ff 100%);
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+
+    .testimonial-content {
+      min-height: 380px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    .testimonial {
+      font-size: 26px;
+      font-weight: 200;
+      color: $muted-color;
+      min-height: 160px;
+    }
+
+    .trip-to {
+      font-weight: normal;
+      font-size: 22px;
+      color: $muted-color;
+    }
+
+    hr {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+
+  .btn-need-help {
+    background-color: #f2f2f2;
+    color: #c3c3c3;
+
+    &:hover {
+      background-color: #fafafa;
+      color: #c3c3c3;
+    }
+  }
+
+  .btn-get-started {
+    background-color: $orange-color;
+    color: $white-color;
+
+    &:hover {
+      background-color: $orange-hover-color;
+      color: $white-color;
+    }
   }
 }
