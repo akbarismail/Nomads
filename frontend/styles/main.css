@@ -238,4 +238,50 @@ header .btn-get-started:hover {
   background-color: #ffaa69;
   color: #fff;
 }
+
+.section-footer a {
+  color: #071c4d;
+  font-weight: 300;
+}
+
+@media (max-width: 470px) {
+  header h1 {
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  header p {
+    font-size: 18px;
+  }
+  .section-stats h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .section-stats p {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+}
+
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 27px;
+    font-family: "Playfair Display", serif;
+  }
+  header p {
+    font-size: 16px;
+  }
+  .section-stats .stats-detail {
+    background-color: #fff;
+    padding-top: 15px;
+    padding-left: 25px;
+  }
+  .section-stats h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .section-stats p {
+    font-size: 13px;
+    font-weight: lighter;
+  }
+}
 /*# sourceMappingURL=main.css.map */

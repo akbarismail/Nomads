@@ -263,3 +263,66 @@ header {
     }
   }
 }
+
+.section-footer {
+  a {
+    color: $primary-color;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 470px) {
+  header {
+    h1 {
+      font-size: 40px;
+      font-family: "Playfair Display", serif;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .section-stats {
+    h2 {
+      font-size: 25px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: lighter;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    h1 {
+      font-size: 27px;
+      font-family: "Playfair Display", serif;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .section-stats {
+    .stats-detail {
+      background-color: $white-color;
+      padding-top: 15px;
+      padding-left: 25px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 13px;
+      font-weight: lighter;
+    }
+  }
+}
