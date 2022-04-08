@@ -6,6 +6,8 @@ $primary-hover-color: #1e3771;
 $orange-color: #ff9e53;
 $orange-hover-color: #ffaa69;
 $muted-color: #6e6e6e;
+$gray-color: #e4e6eb;
+$gray2-color: #b1b1b1;
 
 body {
   background-color: $white-color;
@@ -323,6 +325,74 @@ header {
     p {
       font-size: 13px;
       font-weight: lighter;
+    }
+  }
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: $gray-color;
+  margin-top: -66px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      color: $primary-color;
+      font-weight: bold;
+    }
+  }
+
+  .card-details {
+    border-radius: 11px;
+    padding: 30px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: $gray2-color;
+    }
+  }
+
+  .features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: $primary-color;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
     }
   }
 }
